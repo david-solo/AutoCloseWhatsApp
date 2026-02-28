@@ -1,0 +1,12 @@
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# User files
+.sleep
+.wakeup
+
+# Local overrides
+*.local
