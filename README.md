@@ -57,6 +57,26 @@ This project solves that problem using a lightweight automation approach.
 
 ---
 
+## Technical Highlights
+
+- Uses macOS power event hooks
+- Integrates Bash + AppleScript
+- Uses sleepwatcher for system event automation
+- Includes logging for debugging and traceability
+- Supports multi-user macOS setups
+
+---
+
+## Why This Project Exists
+
+While using macOS, I noticed that WhatsApp sometimes prevents the system from entering sleep mode. 
+
+When the MacBook lid was closed without being connected to power, the battery would gradually drain because the system remained active.
+
+This project was created to enforce predictable system behavior and ensure proper energy management.
+
+---
+
 ## License
 
 MIT License
