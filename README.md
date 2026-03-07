@@ -208,6 +208,8 @@ Both scripts use Bash and AppleScript, which are built into macOS.
 - Uses sleepwatcher for automation
 - Lightweight solution with almost zero CPU usage
 - Works on multi-user systems
+- Supports multi-user macOS setups
+- Includes logging for debugging and traceability
 
 ---
 
@@ -227,26 +229,8 @@ Current version: v1.0.0
 
 ---
 
-## Technical Highlights
-
-- Uses macOS power event hooks
-- Integrates Bash + AppleScript
-- Uses sleepwatcher for system event automation
-- Includes logging for debugging and traceability
-- Supports multi-user macOS setups
-
----
-
-## Why This Project Exists
-
-While using macOS, I noticed that WhatsApp sometimes prevents the system from entering sleep mode. 
-
-When the MacBook lid was closed without being connected to power, the battery would gradually drain because the system remained active.
-
-This project was created to enforce predictable system behavior and ensure proper energy management.
-
----
-
 ## License
 
 MIT License
+
+This means anyone can freely use, copy, modify, and share this project for personal or commercial purposes, without asking me for permission. I do not require any payment or credit, though giving credit is appreciated.
